@@ -1,0 +1,23 @@
+{
+    "name": "pls/log",
+    "description": "PLS logger specification",
+    "keywords": [
+        "PLS", "log", "logger"
+    ],
+    "homepage": "https://github.com/PHP-library-standards/log",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "PHP Library Standards",
+            "homepage": "https://github.com/PHP-library-standards"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pls\\Log\\": "src"
+        }
+    }
+}
