@@ -2,7 +2,7 @@
 /**
  * @package   Pls\Log
  * @author    PHP Library Standards <https://github.com/PHP-library-standards>
- * @copyright 2017 PHP Library Standards
+ * @copyright 2019 PHP Library Standards
  * @license   https://opensource.org/licenses/MIT The MIT License
  */
 
