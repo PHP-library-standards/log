@@ -26,7 +26,7 @@ interface Logger
      * underscore `_`, and dot `.`. The use of other characters is reserved for
      * future modifications of the placeholders specification.
      *
-     * $content can contain anything. Implementors MUST ensure they treat
+     * $context can contain anything. Implementors MUST ensure they treat
      * context data with as much lenience as possible. A given value in $context
      * MUST NOT throw an exception nor raise any php error, warning or notice.
      * If a `Throwable` object is passed in the context data, it MUST be in the
