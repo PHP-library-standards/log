@@ -48,7 +48,7 @@ interface Logger
      * @throws LogException MUST be thrown if a given parameter is an illegal
      *     value. This method MUST NOT throw any other exceptions.
      *
-     * @return bool `true` on success, `false` otherwise.
+     * @return void
      */
-    public function log(int $level, string $message, array $context = []): bool;
+    public function log(int $level, string $message, array $context = []): void;
 }
