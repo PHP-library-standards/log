@@ -9,17 +9,8 @@
 namespace Pls\Log;
 
 /**
- * Log level severity values.
+ * Interface for invalid context exceptions.
  */
-interface LogLevel
+interface InvalidContext extends LoggerException
 {
-    public const
-        EMERGENCY = 0,
-        ALERT     = 1,
-        CRITICAL  = 2,
-        ERROR     = 3,
-        WARNING   = 4,
-        NOTICE    = 5,
-        INFO      = 6,
-        DEBUG     = 7;
 }

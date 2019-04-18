@@ -2,7 +2,9 @@
 * text=auto
 
 # Files that will always have LF line endings on checkout.
-*.php text eol=lf
+*.json text eol=lf
+*.md   text eol=lf
+*.php  text eol=lf
 
 # Files ignored for distribution.
 /docs               export-ignore
